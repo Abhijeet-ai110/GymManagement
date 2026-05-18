@@ -1,0 +1,72 @@
+* {
+.about h2,
+.plans h2,
+.contact h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #222;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h1 {
+    color: orange;
+    margin: 15px 0;
+}
+
+.card ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.card ul li {
+    margin: 10px 0;
+}
+
+.premium {
+    border: 2px solid orange;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin: 10px 0;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
